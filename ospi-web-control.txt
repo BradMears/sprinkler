@@ -1,0 +1,10 @@
+Controlling OSPi using "manual" URLs
+
+- Use the web interface to set manual mode 
+	(is there a URL for this?)
+- To turn Station 10 on for 30 seconds:  
+	wget --http-password=yourpassword "http://ospi:8080/sn10=1&t=30"
+- Shouldn't need to turn it off but if you want to, use:
+	wget --http-password=yourpassword "http://ospi:8080/sn10=0"
+	
+
